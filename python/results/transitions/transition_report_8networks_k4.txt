@@ -1,0 +1,54 @@
+STATE TRANSITION ANALYSIS REPORT
+===============================
+Network configuration: 8-network
+Number of states (k): 4
+
+STATE CORRESPONDENCES (Meditator → Control)
+----------------------------------------
+Meditator State 0 (VIS) → Control State 1 (VIS)
+Meditator State 1 (SMN) → Control State 2 (DMN)
+Meditator State 2 (SUB) → Control State 0 (VAN)
+Meditator State 3 (LIM) → Control State 3 (FPN)
+
+KEY TRANSITION DIFFERENCES (Meditators - Controls)
+---------------------------------------------
+(Positive values indicate transitions more common in meditators)
+(Negative values indicate transitions more common in controls)
+
+Top transitions more common in MEDITATORS:
+  3 → 2: +0.640 (LIM → SUB)
+  2 → 1: +0.409 (SUB → SMN)
+  1 → 2: +0.312 (SMN → SUB)
+  0 → 0: +0.250 (VIS → VIS)
+  0 → 2: +0.250 (VIS → SUB)
+
+Top transitions more common in CONTROLS:
+  3 → 1: -0.678 (FPN → VIS)
+  1 → 2: -0.627 (VIS → DMN)
+  0 → 1: -0.250 (VAN → VIS)
+  2 → 1: -0.232 (DMN → VIS)
+  0 → 0: -0.195 (VAN → VAN)
+
+RECURRING STATE PATTERNS
+=====================
+
+Top patterns more common in MEDITATORS:
+  S2 → S1 → S3: +1.000 (Med: 0.068, Con: 0.000)
+  S1 → S2 → S1: +1.000 (Med: 0.080, Con: 0.000)
+  S3 → S2 → S2: +1.000 (Med: 0.065, Con: 0.000)
+  S2 → S1 → S2: +0.092 (Med: 0.081, Con: 0.067)
+  S3 → S2 → S3: +0.084 (Med: 0.073, Con: 0.062)
+
+Top patterns more common in CONTROLS:
+  S3 → S1 → S3: -0.045 (Med: 0.065, Con: 0.071)
+  S1 → S3 → S1: -0.031 (Med: 0.072, Con: 0.077)
+
+ANALYSIS NOTES
+=============
+- Transition analysis uses functional state correspondence mapping
+- Meditator states are aligned to control states for valid comparison
+- Transitions shown are state block successions, not TR-by-TR transitions
+- Red indicates transitions more common in meditators
+- Blue indicates transitions more common in controls
+INTERPRETATION NOTE: Meditator-dominated transitions use meditator network labels,
+while control-dominated transitions use control network labels.

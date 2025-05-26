@@ -1,0 +1,22 @@
+SUBJECT-LEVEL FRACTIONAL OCCUPANCY PERMUTATION TEST RESULTS
+7-NETWORK CONFIGURATION, k=4
+==========================================================
+
+Number of subjects: 20 meditators, 20 controls
+Number of permutations: 5000
+Test date: 2025-05-12 22:01:57
+
+OBSERVED DIFFERENCES (Meditators - Controls):
+
+State   Difference    P-value    FDR-corrected P
+------------------------------------------------
+S0      +0.0247    0.2444     0.2444
+S1      -0.1281**    0.0018     0.0072
+S2      +0.0664*    0.0486     0.0972
+S3      +0.0370    0.1004     0.1338
+
+* p<0.05 (uncorrected), ** p<0.05 (FDR-corrected)
+
+
+Summary: 2 states show significant differences at p<0.05 (uncorrected)
+         1 states show significant differences after FDR correction

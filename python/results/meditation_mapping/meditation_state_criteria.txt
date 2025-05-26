@@ -1,0 +1,64 @@
+MEDITATION STATE CHARACTERISTICS
+===============================
+
+This document provides criteria for manual mapping of HMM states to meditation phenomenology.
+
+FOCUS
+-----
+Neural Signature:
+- High DAN and FPN activation (z-score > 0.5)
+- DMN deactivation (z-score < -0.5)
+- Strong DAN-FPN coupling (correlation > 0.2)
+- Strong DMN anticorrelation with task-positive networks
+- Relatively long state lifetime
+- High self-transition probability
+Research Support: Hasenkamp et al. (2012), Brewer et al. (2011)
+
+MIND WANDERING
+-------------
+Neural Signature:
+- High DMN activation (z-score > 0.5)
+- Low attention network (DAN, VAN, FPN) activation
+- Strong within-DMN coupling
+- Weak or positive DMN coupling with attention networks
+- Variable state lifetime (shorter in experienced meditators)
+Research Support: Christoff et al. (2009), Mason et al. (2007)
+
+META-AWARENESS
+--------------
+Neural Signature:
+- High VAN activation (z-score > 0.5)
+- Moderate FPN activation (z-score > 0)
+- Strong VAN-FPN coupling
+- Brief state duration
+- Often transitions from Mind Wandering to Shifting
+Research Support: Hasenkamp et al. (2012), Malinowski (2013)
+
+SHIFTING
+--------
+Neural Signature:
+- High VAN and DAN co-activation
+- Moderate FPN activation
+- Low DMN activation
+- Brief transitional state
+- Often precedes Focus state
+Research Support: Hasenkamp & Barsalou (2012), Malinowski (2013)
+
+REFOCUSING
+---------
+Neural Signature:
+- High DAN activation
+- Moderate to high FPN activation
+- VAN activation transitioning to DAN dominance
+- Transitional state (often shorter than Focus)
+- Strong anti-correlation with DMN
+Research Support: Hasenkamp et al. (2012), Lutz et al. (2008)
+
+MAPPING GUIDANCE
+---------------
+1. Prioritize network activation patterns and interactions over temporal metrics
+2. Consider group differences - meditators may show more distinct state separation
+3. Some states may not fit perfectly into a single category - note these as 'hybrid' states
+4. For k=4 models, expect to find Focus, Mind Wandering, Meta-Awareness and a combined Shifting/Refocusing
+5. For k=5 models, all five states may be identifiable
+6. Document your reasoning for each mapping decision

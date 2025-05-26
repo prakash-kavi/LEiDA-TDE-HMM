@@ -1,0 +1,20 @@
+FRACTIONAL OCCUPANCY PERMUTATION TEST RESULTS: 7-NETWORK, k=4
+==============================================================
+
+Number of permutations: 1000
+Test date: 2025-05-12 21:44:14
+
+OBSERVED DIFFERENCES (Meditators - Controls):
+
+State   Difference    P-value    FDR-corrected P
+------------------------------------------------
+S0      +0.0247    0.7463     0.7463
+S1      -0.1281    0.0579     0.2318
+S2      +0.0664    0.3666     0.7333
+S3      +0.0370    0.6454     0.7463
+
+* p<0.05 (uncorrected), ** p<0.05 (FDR-corrected)
+
+
+Summary: 0 states show significant differences at p<0.05 (uncorrected)
+         0 states show significant differences after FDR correction

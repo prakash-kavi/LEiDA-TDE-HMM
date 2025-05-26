@@ -1,0 +1,67 @@
+GLHMM PERMUTATION TEST RESULTS: 7-NETWORK CONFIGURATION, k=4
+==============================================================
+
+Number of permutations: 500
+Test date: 2025-05-12 17:02:41
+
+TRANSITION PROBABILITY RESULTS
+---------------------------------
+
+OBSERVED DIFFERENCES (Meditators - Controls):
+
+From\To S1      S2      S3      S4      
+S1     +0.000** +0.000** +0.000** +0.000** 
+S2     +0.000** +0.050   -0.343** +0.293** 
+S3     +0.000** +0.016   -0.150** +0.084   
+S4     +0.000** -0.018   -0.025   +0.093** 
+
+* p<0.05 (uncorrected), ** p<0.05 (FDR-corrected)
+
+T-STATISTICS:
+
+From\To S1      S2      S3      S4      
+S1     +nan   +nan   +nan   +nan   
+S2     +nan   +0.211   -0.708   +0.653   
+S3     +nan   +0.033   -0.538   +0.156   
+S4     +nan   -0.041   -0.095   +0.367   
+
+UNCORRECTED P-VALUES:
+
+From\To S1      S2      S3      S4      
+S1     0.000   0.000   0.000   0.000   
+S2     0.000   0.198   0.002   0.002   
+S3     0.000   0.838   0.004   0.339   
+S4     0.000   0.838   0.216   0.002   
+
+FDR-CORRECTED P-VALUES:
+
+From\To S1      S2      S3      S4      
+S1     0.000   0.000   0.000   0.000   
+S2     0.000   0.263   0.003   0.003   
+S3     0.000   0.838   0.006   0.388   
+S4     0.000   0.838   0.265   0.003   
+
+Summary: 11 transitions significant at p<0.05 (uncorrected)
+         11 transitions significant after FDR correction
+
+
+FRACTIONAL OCCUPANCY RESULTS
+---------------------------------
+
+OBSERVED DIFFERENCES (Meditators - Controls):
+
+State   Difference   p-value   p-FDR   Significant
+--------------------------------------------------
+S1      +0.000      0.000    0.000    Yes**
+S2      +0.064      0.014    0.014    Yes**
+S3      -0.204      0.002    0.003    Yes**
+S4      +0.140      0.002    0.003    Yes**
+
+Summary: 4 states show significant FO differences at p<0.05 (uncorrected)
+         4 states show significant FO differences after FDR correction
+
+INTERPRETATION NOTES:
+- For transitions: Positive values indicate higher succession probability in meditators
+- For FO: Positive values indicate higher occupancy in meditators
+- All p-values are two-tailed (testing for difference in either direction)
+- FDR correction controls the false discovery rate across all comparisons
