@@ -1,4 +1,0 @@
-group,networks,comparison,metric,mean_abs_deviation,max_abs_deviation
-meditators,7,global_to_bygroup,DMN_activation,0.3870876841258174,0.8212781555542004
-meditators,7,global_to_bygroup,SMN_activation,0.9293402092454219,1.39221805676258
-meditators,7,global_to_bygroup,DMN_anticorrelation,0.03256850829738841,0.04585798801226837
